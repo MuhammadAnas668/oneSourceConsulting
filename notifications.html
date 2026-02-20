@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onesource Consulting | Notifications and Updates</title>
+    <link rel="icon" type="image/svg+xml" href="assets/images/onesource-logo.svg">
+    <link rel="shortcut icon" href="assets/images/onesource-logo.svg">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/notifications.css">
+</head>
+<body data-page="notifications">
+    <canvas id="bg-canvas"></canvas>
+
+    <div id="site-header"></div>
+
+    <main class="notifications-page">
+        <div class="page-header">
+            <h1 class="page-title"><span class="gradient-text">Updates</span> and <span class="gradient-text">Notifications</span></h1>
+            <p class="page-subtitle">Stay informed about new jobs, events, and important announcements.</p>
+        </div>
+
+        <div class="notification-filters">
+            <button class="filter-btn active">All</button>
+            <button class="filter-btn">Announcements</button>
+            <button class="filter-btn">New Jobs</button>
+            <button class="filter-btn">Events</button>
+            <button class="filter-btn">Blog Updates</button>
+            <button class="filter-btn">For You</button>
+        </div>
+
+        <section class="notifications-list">
+            <div class="notification-item unread">
+                <div class="notification-icon">J</div>
+                <div class="notification-content">
+                    <div class="notification-header">
+                        <h3>New Job Alert: Senior Developer at TechSolutions</h3>
+                        <span class="notification-time">2 hours ago</span>
+                    </div>
+                    <p class="notification-message">A new position matching your profile has been posted with hybrid work options in Karachi.</p>
+                    <div class="notification-actions">
+                        <button class="action-btn">View Job</button>
+                        <button class="action-btn">Save</button>
+                        <span class="unread-badge">New</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="notification-item unread">
+                <div class="notification-icon">A</div>
+                <div class="notification-content">
+                    <div class="notification-header">
+                        <h3>Office Closure Notice: 23rd March</h3>
+                        <span class="notification-time">5 hours ago</span>
+                    </div>
+                    <p class="notification-message">Our office will remain closed on Pakistan Day. Online consultations will stay available.</p>
+                    <div class="notification-actions">
+                        <span class="unread-badge">New</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="notification-item">
+                <div class="notification-icon">E</div>
+                <div class="notification-content">
+                    <div class="notification-header">
+                        <h3>Webinar: Crack Any Interview - March 30</h3>
+                        <span class="notification-time">Yesterday</span>
+                    </div>
+                    <p class="notification-message">Join our free webinar with industry experts and improve your interview performance.</p>
+                    <div class="notification-actions">
+                        <button class="action-btn">Register now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="notification-item">
+                <div class="notification-icon">J</div>
+                <div class="notification-content">
+                    <div class="notification-header">
+                        <h3>Five new jobs added in Lahore</h3>
+                        <span class="notification-time">2 days ago</span>
+                    </div>
+                    <p class="notification-message">Marketing Manager, HR Business Partner, Data Analyst, and other roles are now open.</p>
+                    <div class="notification-actions">
+                        <button class="action-btn">View jobs</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="notification-item">
+                <div class="notification-icon">B</div>
+                <div class="notification-content">
+                    <div class="notification-header">
+                        <h3>New blog post: 10 tips for remote interviews</h3>
+                        <span class="notification-time">3 days ago</span>
+                    </div>
+                    <p class="notification-message">Learn how to prepare, communicate, and stand out in virtual interview rounds.</p>
+                    <div class="notification-actions">
+                        <button class="action-btn">Read article</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="notification-item">
+                <div class="notification-icon">F</div>
+                <div class="notification-content">
+                    <div class="notification-header">
+                        <h3>Your profile is 80 percent complete</h3>
+                        <span class="notification-time">4 days ago</span>
+                    </div>
+                    <p class="notification-message">Add your skills and experience to receive more relevant job matches.</p>
+                    <div class="notification-actions">
+                        <button class="action-btn">Complete profile</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="mark-all-read">
+            <button class="btn-secondary">Mark all as read</button>
+        </div>
+
+        <section class="upcoming-events">
+            <h2>Upcoming <span class="gradient-text">Events</span></h2>
+            <div class="events-grid">
+                <div class="event-card">
+                    <div class="event-date"><span class="day">30</span><span class="month">MAR</span></div>
+                    <div class="event-details">
+                        <h3>Interview Skills Webinar</h3>
+                        <p>Online, 3:00 PM - 4:30 PM</p>
+                        <button class="event-btn">Register</button>
+                    </div>
+                </div>
+
+                <div class="event-card">
+                    <div class="event-date"><span class="day">5</span><span class="month">APR</span></div>
+                    <div class="event-details">
+                        <h3>Lahore Job Fair 2026</h3>
+                        <p>Expo Centre Lahore, 10:00 AM</p>
+                        <button class="event-btn">Get ticket</button>
+                    </div>
+                </div>
+
+                <div class="event-card">
+                    <div class="event-date"><span class="day">12</span><span class="month">APR</span></div>
+                    <div class="event-details">
+                        <h3>Resume Writing Workshop</h3>
+                        <p>Online, 2:00 PM - 4:00 PM</p>
+                        <button class="event-btn">Join</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="notification-settings">
+            <h2>Notification <span class="gradient-text">Settings</span></h2>
+            <div class="settings-card">
+                <div class="setting-item">
+                    <div>
+                        <h4>Job Alerts</h4>
+                        <p>Get notified when new jobs match your profile.</p>
+                    </div>
+                    <label class="switch"><input type="checkbox" checked><span class="slider"></span></label>
+                </div>
+
+                <div class="setting-item">
+                    <div>
+                        <h4>Event Reminders</h4>
+                        <p>Stay updated about webinars and events.</p>
+                    </div>
+                    <label class="switch"><input type="checkbox" checked><span class="slider"></span></label>
+                </div>
+
+                <div class="setting-item">
+                    <div>
+                        <h4>Blog Updates</h4>
+                        <p>Receive weekly career articles.</p>
+                    </div>
+                    <label class="switch"><input type="checkbox"><span class="slider"></span></label>
+                </div>
+
+                <div class="setting-item">
+                    <div>
+                        <h4>Email Notifications</h4>
+                        <p>Receive notifications directly via email.</p>
+                    </div>
+                    <label class="switch"><input type="checkbox" checked><span class="slider"></span></label>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="site-footer"></div>
+
+    <script src="js/three-background.js"></script>
+    <script src="js/layout.js"></script>
+    <script src="js/darkmode.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/notifications.js"></script>
+</body>
+</html>

@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onesource Consulting | Digital Transformation & Enterprise Solutions</title>
+    <meta name="description"
+        content="Onesource Consulting helps enterprises transform through AI, Cloud, Healthcare RCM, Cybersecurity, and Software Engineering solutions.">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="Onesource Consulting | Digital Transformation">
+    <meta property="og:description" content="Enterprise transformation through AI, Cloud, Healthcare RCM, and Cybersecurity solutions.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://onesource.com">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/images/onesource-logo.svg">
+    <link rel="shortcut icon" href="assets/images/onesource-logo.svg">
+
+    <!-- Scripts & Styles -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home.css">
+</head>
+
+<body data-page="home">
+    <canvas id="bg-canvas"></canvas>
+
+    <div id="site-header"></div>
+
+    <main class="home-main">
+        <!-- HERO SECTION -->
+        <section class="hero">
+            <div class="hero-shell">
+                <div class="hero-content">
+                    <div class="hero-kicker">
+                        <i class="fas fa-bolt"></i>
+                        <span>Transform Your Enterprise</span>
+                    </div>
+                    <h1 class="hero-title">
+                        Enterprise <span class="gradient-text">Digital Transformation</span> Made Simple
+                    </h1>
+                    <p class="hero-text">
+                        We help Fortune 500 companies and ambitious mid-market enterprises adopt AI, secure cloud
+                        infrastructure, modernize healthcare operations, and build world-class software teams.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="book-online.html" class="btn-primary">
+                            <i class="fas fa-calendar-alt"></i>
+                            Book a Session
+                        </a>
+                        <a href="blog.html" class="btn-secondary">
+                            <i class="fas fa-book-open"></i>
+                            Read Insights
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- FIXED: Hero Media properly placed -->
+                <div class="hero-media">
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=800&q=80"
+                        alt="Enterprise team collaborating on digital transformation strategy" class="hero-main-image" loading="lazy">
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-icon"><i class="fas fa-calendar-check"></i></div>
+                            <div class="stat-number">15+</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-icon"><i class="fas fa-chart-line"></i></div>
+                            <div class="stat-number">$2.5B</div>
+                            <div class="stat-label">Value Created</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-icon"><i class="fas fa-building"></i></div>
+                            <div class="stat-number">200+</div>
+                            <div class="stat-label">Enterprise Clients</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-icon"><i class="fas fa-handshake"></i></div>
+                            <div class="stat-number">98%</div>
+                            <div class="stat-label">Client Retention</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICES GRID -->
+        <section class="services-section">
+            <div class="section-header">
+                <div class="section-badge">
+                    <i class="fas fa-star"></i>
+                    <span>Our Expertise</span>
+                </div>
+                <h2 class="section-title">What We Do</h2>
+                <p class="section-subtitle">
+                    Six core service areas that drive enterprise transformation and competitive advantage.
+                </p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service Card 1 - AI -->
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=500&q=80"
+                            alt="AI Integration and Machine Learning" loading="lazy">
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon ai-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3>AI Integration</h3>
+                        <p>Embed AI and ML into mission-critical workflows. Move from pilots to production value in
+                            weeks.</p>
+                        <div class="topics">
+                            <span class="topic-tag">Generative AI</span>
+                            <span class="topic-tag">ML Ops</span>
+                        </div>
+                        <a href="book-online.html" class="service-link">Book Workshop <i
+                                class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Service Card 2 - Healthcare -->
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1584982751601-97dcc096659c?auto=format&fit=crop&w=500&q=80"
+                            alt="Healthcare Revenue Cycle Management" loading="lazy">
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon rcm-icon">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <h3>Healthcare RCM</h3>
+                        <p>Reduce claim denials, accelerate reimbursement, optimize revenue cycle. Data-driven
+                            improvements.</p>
+                        <div class="topics">
+                            <span class="topic-tag">Claims Ops</span>
+                            <span class="topic-tag">Billing</span>
+                        </div>
+                        <a href="book-online.html" class="service-link">Schedule Consultation <i
+                                class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Service Card 3 - Cloud -->
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=500&q=80"
+                            alt="Cloud Infrastructure and Architecture" loading="lazy">
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon cloud-icon">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+                        <h3>Cloud Infrastructure</h3>
+                        <p>Design resilient, cost-optimized cloud landing zones. Build governance and security by
+                            default.</p>
+                        <div class="topics">
+                            <span class="topic-tag">AWS</span>
+                            <span class="topic-tag">Architecture</span>
+                        </div>
+                        <a href="book-online.html" class="service-link">Review Strategy <i
+                                class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Service Card 4 - Cybersecurity -->
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=500&q=80"
+                            alt="Cybersecurity and Risk Management" loading="lazy">
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon cyber-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Cybersecurity</h3>
+                        <p>Build security into architecture. Reduce risk, improve incident response, achieve compliance.
+                        </p>
+                        <div class="topics">
+                            <span class="topic-tag">Risk Management</span>
+                            <span class="topic-tag">Compliance</span>
+                        </div>
+                        <a href="book-online.html" class="service-link">Start Audit <i
+                                class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Service Card 5 - Software Engineering -->
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=500&q=80"
+                            alt="Software Engineering and Development" loading="lazy">
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon eng-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Software Engineering</h3>
+                        <p>Build high-performance teams. Modern delivery pipelines, technical debt reduction, quality
+                            first.</p>
+                        <div class="topics">
+                            <span class="topic-tag">DevOps</span>
+                            <span class="topic-tag">Quality</span>
+                        </div>
+                        <a href="book-online.html" class="service-link">Discuss Plans <i
+                                class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Service Card 6 - Business Enablement -->
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1552581234-26160f608093?auto=format&fit=crop&w=500&q=80"
+                            alt="Business Enablement and Transformation" loading="lazy">
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon business-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <h3>Business Enablement</h3>
+                        <p>Transform operations through process design, change management, and organizational alignment.
+                        </p>
+                        <div class="topics">
+                            <span class="topic-tag">Strategy</span>
+                            <span class="topic-tag">Change Mgmt</span>
+                        </div>
+                        <a href="book-online.html" class="service-link">Explore More <i
+                                class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- WHY CHOOSE US -->
+        <section class="why-us-section">
+            <div class="section-header">
+                <h2 class="section-title">Why Choose Onesource</h2>
+                <p class="section-subtitle">
+                    We combine deep industry expertise with pragmatic implementation approach.
+                </p>
+            </div>
+
+            <div class="why-us-grid">
+                <div class="why-card">
+                    <div class="why-image">
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=500&q=80"
+                            alt="Proven Track Record" loading="lazy">
+                    </div>
+                    <div class="why-card-content">
+                        <div class="why-number">01</div>
+                        <h4>Proven Track Record</h4>
+                        <p>15+ years of transforming enterprises. Led initiatives worth $2.5B in measurable value.</p>
+                    </div>
+                </div>
+                <div class="why-card">
+                    <div class="why-image">
+                        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=500&q=80"
+                            alt="Hands-On Approach" loading="lazy">
+                    </div>
+                    <div class="why-card-content">
+                        <div class="why-number">02</div>
+                        <h4>Hands-On Approach</h4>
+                        <p>We don't just advise—we execute alongside your team. Your success is our success.</p>
+                    </div>
+                </div>
+                <div class="why-card">
+                    <div class="why-image">
+                        <img src="https://images.unsplash.com/photo-1577415124269-fc1140a69e91?auto=format&fit=crop&w=500&q=80"
+                            alt="Industry Expertise" loading="lazy">
+                    </div>
+                    <div class="why-card-content">
+                        <div class="why-number">03</div>
+                        <h4>Industry Expertise</h4>
+                        <p>Deep, specialized knowledge in Healthcare, Financial Services, Manufacturing, Tech.</p>
+                    </div>
+                </div>
+                <div class="why-card">
+                    <div class="why-image">
+                        <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=500&q=80"
+                            alt="Pragmatic Solutions" loading="lazy">
+                    </div>
+                    <div class="why-card-content">
+                        <div class="why-number">04</div>
+                        <h4>Pragmatic Solutions</h4>
+                        <p>We understand constraints. Realistic roadmaps, achievable milestones, measurable ROI.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROCESS SECTION -->
+        <section class="process-section">
+            <div class="section-header">
+                <div class="section-badge">
+                    <i class="fas fa-road"></i>
+                    <span>Our Approach</span>
+                </div>
+                <h2 class="section-title">How We Work</h2>
+                <p class="section-subtitle">
+                    A proven methodology that delivers results. From discovery to execution to success.
+                </p>
+            </div>
+
+            <div class="process-diagram">
+                <div class="process-grid">
+                    <div class="process-card">
+                        <div class="process-card-inner">
+                            <div class="process-step-number">01</div>
+                            <h3>Discovery & Assessment</h3>
+                            <p>We deeply understand your goals, challenges, and constraints through immersive workshops
+                                and analysis.</p>
+                            <div class="process-icon">
+                                <i class="fas fa-search"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="process-card">
+                        <div class="process-card-inner">
+                            <div class="process-step-number">02</div>
+                            <h3>Strategy & Roadmap</h3>
+                            <p>Develop a practical, achievable transformation roadmap with clear milestones and
+                                measurable outcomes.</p>
+                            <div class="process-icon">
+                                <i class="fas fa-map"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="process-card">
+                        <div class="process-card-inner">
+                            <div class="process-step-number">03</div>
+                            <h3>Implementation & Execution</h3>
+                            <p>Execute alongside your team with hands-on expertise. Overcome obstacles. Build
+                                capabilities.</p>
+                            <div class="process-icon">
+                                <i class="fas fa-hammer"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="process-card">
+                        <div class="process-card-inner">
+                            <div class="process-step-number">04</div>
+                            <h3>Optimization & Scale</h3>
+                            <p>Measure results. Refine processes. Scale successful initiatives across your organization.
+                            </p>
+                            <div class="process-icon">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TESTIMONIALS SECTION -->
+        <section class="testimonials-section">
+            <div class="section-header">
+                <div class="section-badge">
+                    <i class="fas fa-quote-left"></i>
+                    <span>Success Stories</span>
+                </div>
+                <h2 class="section-title">What Our Clients Say</h2>
+                <p class="section-subtitle">
+                    Real impact from real transformations. Hear from leaders who've partnered with us.
+                </p>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Onesource transformed our AI journey from experimental to production.
+                        In 6 months, we deployed 3 AI solutions that improved operations by 40%."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar" style="background: linear-gradient(135deg, #8B5CF6, #3B82F6);">RS</div>
+                        <div>
+                            <div class="author-name">Rajesh Singh</div>
+                            <div class="author-title">VP Engineering, TechCorp</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Their RCM expertise reduced our claim denial rate from 18% to 4% in 9
+                        months. That's millions in recovered revenue."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar" style="background: linear-gradient(135deg, #EC4899, #8B5CF6);">SK</div>
+                        <div>
+                            <div class="author-name">Dr. Safiya Khan</div>
+                            <div class="author-title">CFO, HealthFirst Medical</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"They didn't just build a cloud strategy—they built confidence in our
+                        team. Now we move faster and safer than ever."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar" style="background: linear-gradient(135deg, #10B981, #3B82F6);">MC</div>
+                        <div>
+                            <div class="author-name">Maria Chen</div>
+                            <div class="author-title">CTO, Global Financial</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA SECTION -->
+        <section class="cta-section">
+            <div class="cta-content">
+                <h2>Ready to Transform?</h2>
+                <p>Let's discuss how we can help your organization move faster, smarter, and more securely.</p>
+                <div class="cta-buttons">
+                    <a href="book-online.html" class="btn-primary">
+                        <i class="fas fa-check-circle"></i>
+                        Book Your Session Now
+                    </a>
+                    <a href="book-online.html" class="btn-secondary">
+                        <i class="fas fa-envelope"></i>
+                        Contact Us
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="site-footer"></div>
+
+    <script src="js/three-background.js"></script>
+    <script src="js/layout.js"></script>
+    <script src="js/darkmode.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/home.js"></script>
+</body>
+
+</html>

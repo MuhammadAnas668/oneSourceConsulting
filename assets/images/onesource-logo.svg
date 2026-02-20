@@ -1,0 +1,30 @@
+<svg width="220" height="220" viewBox="0 0 220 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="brand_core" x1="26" y1="30" x2="194" y2="190" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2DB7E6" />
+      <stop offset="1" stop-color="#F2BA61" />
+    </linearGradient>
+    <linearGradient id="ring_glow" x1="44" y1="22" x2="184" y2="198" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8AD7F3" stop-opacity="0.76" />
+      <stop offset="1" stop-color="#F5CF8A" stop-opacity="0.62" />
+    </linearGradient>
+    <filter id="soft_glow" x="0" y="0" width="220" height="220" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <circle cx="110" cy="110" r="100" fill="#071B2D" />
+  <circle cx="110" cy="110" r="94" stroke="url(#ring_glow)" stroke-width="4" />
+  <circle cx="110" cy="110" r="67" fill="url(#brand_core)" fill-opacity="0.16" />
+
+  <g filter="url(#soft_glow)">
+    <path d="M62 110C62 82.3858 84.3858 60 112 60C139.614 60 162 82.3858 162 110C162 137.614 139.614 160 112 160C96.1072 160 81.9464 152.386 72.7991 140.601" stroke="url(#brand_core)" stroke-width="16" stroke-linecap="round" />
+    <path d="M79 96H133" stroke="url(#brand_core)" stroke-width="16" stroke-linecap="round" />
+  </g>
+
+  <circle cx="154" cy="147" r="10" fill="#F2BA61" />
+</svg>
